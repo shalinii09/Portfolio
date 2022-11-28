@@ -3,9 +3,10 @@ import React, { Component } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import Crypto from "../assets/crypto.jpeg";
-import Reg from "../assets/register.jpeg";
-import Flipped from "../assets/flipped.jpeg";
+import Crypto from "../assets/food.jpg";
+import Reg from "../assets/fest.jpg";
+import Flipped from "../assets/portal.jpg";
+import Bank from "../assets/bank.jpg";
 
 
 const Projects = () => {
@@ -22,6 +23,10 @@ const Projects = () => {
       id: 3,
       src: Flipped,
     },
+    {
+      id: 4,
+      src: Bank,
+    },
     
   ];
 
@@ -37,7 +42,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className=" w-full  md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -56,14 +61,14 @@ const Projects = () => {
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
-              <div className="flex items-center justify-center">
-                {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:bg-white hover:text-black hover:font-bold hover:scale-105">
+              {/* <div className="flex items-center justify-center">
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:bg-white hover:text-black hover:font-bold hover:scale-105">
                   Demo
-                </button> */}
+                </button>
                 <button className="w-1/2 px-6 py-3 m-4 bg-blue-500 hover:bg-white hover:text-black hover:font-bold duration-200 hover:scale-105">
                   Code
                 </button>
-              </div>
+              </div> */}
             </div>
           ))}
           </Slider>

@@ -3,20 +3,20 @@ import React from "react";
 import c from "../assets/c.png";
 import cp from "../assets/c++.png";
 import python from "../assets/python.png";
-import django from "../assets/django.png";
-import pandas from "../assets/pandas.png";
-import sklearn from "../assets/sklearn.png";
+import Html from "../assets/html.png";
+import Css from "../assets/css.png";
+import Javascript from "../assets/javascript.png";
 import github from "../assets/github.png";
-import apache from "../assets/apache.png";
-import numpy from "../assets/numpy.png";
-import postgresql from "../assets/postgresql.png";
-import opencv from "../assets/opencv.png";
-import sql from "../assets/sql.jpg";
-import solidity from "../assets/solidity.png";
-import truffle from "../assets/truffle.png";
-import tenserflow from "../assets/tensorflow.png";
+// import apache from "../assets/apache.png";
+// import numpy from "../assets/numpy.png";
+// import postgresql from "../assets/postgresql.png";
+// import opencv from "../assets/opencv.png";
+// import sql from "../assets/sql.jpg";
+// import solidity from "../assets/solidity.png";
+// import truffle from "../assets/truffle.png";
+// import tenserflow from "../assets/tensorflow.png";
 // import seaborn from "../assets/seaborn.png";
-import heroku  from "../assets/heroku.png";
+// import heroku  from "../assets/heroku.png";
 
 
 const Skills = () => {
@@ -41,96 +41,97 @@ const Skills = () => {
     },
     {
       id: 4,
-      src: django,
-      title: "Django",
+      src: Html,
+      title: "Html",
       style: "shadow-green-700",
     },
     {
       id: 5,
-      src: pandas,
-      title: "Pandas",
+      src: Css,
+      title: "CSS",
       style: "shadow-blue-600",
-    },
+    },  
     {
       id: 6,
-      src: sklearn,
-      title: "Sklearn",
+      src: Javascript,
+      title: "Javascript",
       style: "shadow-orange-400",
     },
+  
+    // {
+    //   id: 7,
+    //   src: tenserflow,
+    //   title: "Tensorflow",
+    //   style: "shadow-orange-500",
+    // },
+    // {
+    //   id: 8,
+    //   src: apache,
+    //   title: "Apache Spark",
+    //   style: "shadow-orange-700",
+    // },
+    // {
+    //   id: 9,
+    //   src: numpy,
+    //   title: "Numpy",
+    //   style: "shadow-blue-400",
+    // },
+    // {
+    //   id: 10,
+    //   src: postgresql,
+    //   title: "PostgreSQL",
+    //   style: "shadow-slate-500",
+    // },
+    // {
+    //   id: 11,
+    //   src: opencv,
+    //   title: "OpenCV",
+    //   style: "shadow-green-400",
+    // },
+    // {
+    //   id: 12,
+    //   src: sql,
+    //   title: "SQL",
+    //   style: "shadow-yellow-600",
+    // },
+    // {
+    //   id: 13,
+    //   src: solidity,
+    //   title: "Solidity",
+    //   style: "shadow-gray-400",
+    // },
+    // {
+    //   id: 14,
+    //   src: truffle,
+    //   title: "Truffle",
+    //   style: "shadow-green-300",
+    // },
+    // {
+    //   id: 15,
+    //   src: github,
+    //   title: "Seaborn",
+    //   style: "shadow-gray-400",
+    // },
     {
-      id: 7,
-      src: tenserflow,
-      title: "Tensorflow",
-      style: "shadow-orange-500",
-    },
-    {
-      id: 8,
-      src: apache,
-      title: "Apache Spark",
-      style: "shadow-orange-700",
-    },
-    {
-      id: 9,
-      src: numpy,
-      title: "Numpy",
-      style: "shadow-blue-400",
-    },
-    {
-      id: 10,
-      src: postgresql,
-      title: "PostgreSQL",
-      style: "shadow-slate-500",
-    },
-    {
-      id: 11,
-      src: opencv,
-      title: "OpenCV",
-      style: "shadow-green-400",
-    },
-    {
-      id: 12,
-      src: sql,
-      title: "SQL",
-      style: "shadow-yellow-600",
-    },
-    {
-      id: 13,
-      src: solidity,
-      title: "Solidity",
-      style: "shadow-gray-400",
-    },
-    {
-      id: 14,
-      src: truffle,
-      title: "Truffle",
-      style: "shadow-green-300",
-    },
-    {
-      id: 15,
-      src: github,
-      title: "Seaborn",
-      style: "shadow-gray-400",
-    },
-    {
-      id: 16,
+      id: 4,
       src: github,
       title: "Github",
       style: "shadow-gray-400",
     },
-    {
-      id: 17,
-      src: heroku,
-      title: "Heroku",
-      style: "shadow-purple-400",
-    },
+    // {
+    //   id: 17,
+    //   src: heroku,
+    //   title: "Heroku",
+    //   style: "shadow-purple-400",
+    // },
   ];
 
   return (
     <div
       name="skills"
-      className="bg-gradient-to-b  from-gray-800 to-black w-full h-full"
+      className=" w-full h-full"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full ">
         <div>
           <p className="text-4xl  font-bold border-b-4 border-gray-500 p-2 inline">
             Skills
