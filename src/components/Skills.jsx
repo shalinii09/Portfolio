@@ -7,7 +7,7 @@ import Html from "../assets/html.png";
 import Css from "../assets/css.png";
 import Javascript from "../assets/javascript.png";
 import github from "../assets/github.png";
-// import apache from "../assets/apache.png";
+import reacts from "../assets/react.png";
 // import numpy from "../assets/numpy.png";
 // import postgresql from "../assets/postgresql.png";
 // import opencv from "../assets/opencv.png";
@@ -43,7 +43,7 @@ const Skills = () => {
       id: 4,
       src: Html,
       title: "Html",
-      style: "shadow-green-700",
+      style: "shadow-orange-700",
     },
     {
       id: 5,
@@ -55,15 +55,15 @@ const Skills = () => {
       id: 6,
       src: Javascript,
       title: "Javascript",
-      style: "shadow-orange-400",
+      style: "shadow-yellow-400",
     },
   
-    // {
-    //   id: 7,
-    //   src: tenserflow,
-    //   title: "Tensorflow",
-    //   style: "shadow-orange-500",
-    // },
+    {
+      id: 7,
+      src: reacts,
+      title: "React",
+      style: "shadow-blue-500",
+    },
     // {
     //   id: 8,
     //   src: apache,
