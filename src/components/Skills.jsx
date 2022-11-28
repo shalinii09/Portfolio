@@ -8,9 +8,9 @@ import Css from "../assets/css.png";
 import Javascript from "../assets/javascript.png";
 import github from "../assets/github.png";
 import reacts from "../assets/react.png";
-// import numpy from "../assets/numpy.png";
-// import postgresql from "../assets/postgresql.png";
-// import opencv from "../assets/opencv.png";
+import Adobe from "../assets/adobe.jpg";
+import Figma from "../assets/figma.jpg";
+import Canva from "../assets/canva.jpg";
 // import sql from "../assets/sql.jpg";
 // import solidity from "../assets/solidity.png";
 // import truffle from "../assets/truffle.png";
@@ -64,24 +64,24 @@ const Skills = () => {
       title: "React",
       style: "shadow-blue-500",
     },
-    // {
-    //   id: 8,
-    //   src: apache,
-    //   title: "Apache Spark",
-    //   style: "shadow-orange-700",
-    // },
-    // {
-    //   id: 9,
-    //   src: numpy,
-    //   title: "Numpy",
-    //   style: "shadow-blue-400",
-    // },
-    // {
-    //   id: 10,
-    //   src: postgresql,
-    //   title: "PostgreSQL",
-    //   style: "shadow-slate-500",
-    // },
+    {
+      id: 8,
+      src: Adobe,
+      title: "Adobe",
+      style: "shadow-orange-700",
+    },
+    {
+      id: 9,
+      src: Figma,
+      title: "Figma",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 10,
+      src: Canva,
+      title: "Canva",
+      style: "shadow-slate-500",
+    },
     // {
     //   id: 11,
     //   src: opencv,
